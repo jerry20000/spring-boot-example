@@ -1,0 +1,11 @@
+server:
+  port: 18500
+
+spring:
+  profiles:
+    active: test
+  application:
+    name: elk-demo
+
+logging:
+  file: target/${spring.application.name}.log

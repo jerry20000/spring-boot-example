@@ -1,0 +1,11 @@
+server:
+  port: 18100
+
+spring:
+  profiles:
+    active: test
+  application:
+    name: sharding-jdbc-jpa
+
+logging:
+  file: target/${spring.application.name}.log
